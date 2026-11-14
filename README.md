@@ -1,34 +1,43 @@
-# [Project Name]
+# Study Buddy
 
-[One or two sentences: what the system does and who it is for.]
+Study Buddy is a web application that helps students organise study groups: scheduling sessions, voting on times, recording attendance, sharing notes and chatting in one place. It is built for students, group owners, tutors and administrators at a learning institution.
 
-**Learner:** [Full name] · **Student number:** [number] · **Supervisor:** [name]
+
+**Learner:** Itumeleng Precious Olifant · **Student number:** BCS/SD/10225 · **Supervisor:** Mr Jeff
 
 ## Problem
 
-[Two or three sentences describing the problem the system solves.]
+Students usually organise study groups through scattered chat messages, which makes it hard to agree on a time, track who attends and keep notes in one place. Study Buddy gives each group a single place to schedule sessions, vote on times, take attendance, share notes and communicate, with reports so group owners and administrators can see participation.
 
 ## Features
 
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
+- Register and log in with role-based access
+- Create modules and study groups, and join a group with a join code
+- Schedule study sessions with a venue, date and time
+- Vote on proposed time slots for a session
+- Record attendance for each session
+- Upload and share notes within a group
+- Group chat messages
+- Notifications for group activity
+- Attendance and participation reports
 
 ## User Roles
 
 | Role | What they can do |
 | --- | --- |
-| [Role 1] | [Permissions] |
-| [Role 2] | [Permissions] |
+| Administrator | Manage users, modules and groups; view system-wide reports  |
+| Group Owner | Create and manage a group, schedule sessions, manage members, take attendance, view group reports |
+| Student | Join groups, vote on session times, view sessions, upload notes, chat, view own attendance |
+| Tutor (optional) | Join groups to support members, view sessions and notes, and take part in group chat |
 
 ## Tech Stack
 
 | Part | Technology |
 | --- | --- |
-| Language | Python [version] |
-| Framework | Django [version] |
-| Database | [SQLite / MySQL / PostgreSQL] |
-| Frontend | [Django templates and Bootstrap / React] |
+| Language | Python 3.14.5 |
+| Framework | Django 6.1.3 with Django REST Framework |
+| Database | [MySQL] |
+| Frontend | [React] |
 | Testing | Django test framework |
 
 ## Setup
@@ -37,7 +46,7 @@
 
 - Python [version]
 - Git
-- [MySQL / PostgreSQL, if used]
+- [MySQL ]
 - [Node.js, if the project has a React frontend]
 
 ### Installation
